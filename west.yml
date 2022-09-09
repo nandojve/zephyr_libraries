@@ -1,0 +1,20 @@
+ manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: main
+      import:
+        path-allowlist:
+          - bootloader/*
+          - modules/crypto/mbedtls
+          - modules/fs/*
+          - modules/hal/atmel
+          - modules/hal/cmsis
+          - modules/hal/gigadevice
+          - modules/hal/stm32
+          - modules/tee/tf-m/*
+  self:
+    import:

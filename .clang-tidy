@@ -1,0 +1,79 @@
+---
+Checks:          '-*,readability-identifier-naming'
+WarningsAsErrors: '-*,readability-identifier-naming'
+AnalyzeTemporaryDtors: false
+FormatStyle:     file
+CheckOptions:
+  - key:             readability-identifier-naming.NamespaceCase
+    value:           'CamelCase'
+  - key:             readability-identifier-naming.NamespaceIgnoredRegexp
+    value:           'internal'
+  - key:             readability-identifier-naming.AbstractClassCase
+    value:           'CamelCase'
+  - key:             readability-identifier-naming.ClassCase
+    value:           'CamelCase'
+  - key:             readability-identifier-naming.ClassMemberCase
+    value:           'camelBack'
+  - key:             readability-identifier-naming.ClassMemberPrefix
+    value:           'm_'
+  - key:             readability-identifier-naming.ClassConstantCase
+    value:           'UPPER_CASE'
+  - key:             readability-identifier-naming.ConstantMemberCase
+    value:           'UPPER_CASE'
+  - key:             readability-identifier-naming.ClassMethodCase
+    value:           'camelBack'
+  - key:             readability-identifier-naming.VariableCase
+    value:           'camelBack'
+  - key:             readability-identifier-naming.VariableIgnoredRegexp
+    value:           '.+_V'
+  - key:             readability-identifier-naming.ConstantCase
+    value:           'UPPER_CASE'
+  - key:             readability-identifier-naming.StaticConstantCase
+    value:           'UPPER_CASE'
+  - key:             readability-identifier-naming.StaticVariableCase
+    value:           'camelBack'
+  - key:             readability-identifier-naming.LocalConstantCase
+    value:           'camelBack'
+  - key:             readability-identifier-naming.TemplateParameterSuffix
+    value:           '_T'
+  - key:             readability-identifier-naming.TemplateParameterIgnoredRegexp
+    value:           '.+_TS'
+  - key:             readability-identifier-naming.TemplateParameterCase
+    value:           'UPPER_CASE'
+  - key:             readability-identifier-naming.TemplateTemplateParameterCase
+    value:           'UPPER_CASE'
+  - key:             readability-identifier-naming.TypeAliasCase
+    value:           'CamelCase'
+  - key:             readability-identifier-naming.TypeAliasSuffix
+    value:           'Type'
+  - key:             readability-identifier-naming.TypeAliasIgnoredRegexp
+    value:           '^.*Type$|^SepHandlerTypes$'
+  - key:             readability-identifier-naming.TypedefCase
+    value:           'CamelCase'
+  - key:             readability-identifier-naming.TypeTemplateParameterSuffix
+    value:           '_T'
+  - key:             readability-identifier-naming.TypeTemplateParameterIgnoredRegexp
+    value:           '.+_TS'
+  - key:             readability-identifier-naming.TypeTemplateParameterCase
+    value:           'UPPER_CASE'
+  - key:             readability-identifier-naming.ValueTemplateParameterSuffix
+    value:           '_V'
+  - key:             readability-identifier-naming.ValueTemplateParameterCase
+    value:           'UPPER_CASE'
+  - key:             readability-identifier-naming.EnumCase
+    value:           'CamelCase'
+  - key:             readability-identifier-naming.EnumConstantCase
+    value:           'CamelCase'
+  - key:             readability-identifier-naming.ScopedEnumConstantCase
+    value:           'CamelCase'
+  - key:             readability-identifier-naming.ConstantParameterCase
+    value:           'camelBack'
+  - key:             readability-identifier-naming.ConstexprFunctionCase
+    value:           'camelBack'
+  - key:             readability-identifier-naming.ConstexprMethodCase
+    value:           'camelBack'
+  - key:             readability-identifier-naming.ConstexprVariableCase
+    value:           'UPPER_CASE'
+  - key:             readability-identifier-naming.TypeTemplateParameterIgnoredRegexp
+    value:           expr-type
+...
